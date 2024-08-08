@@ -1,1 +1,15 @@
-
+var aleartmsg=() => {
+    alert("message form javascript alert! ");
+    console.log("message to developer");
+}
+function Appp (){
+    return(
+        <div>
+            <h1>let me see the output of javascript</h1>
+            <button onClick={aleartmsg}>click </button>
+        </div>
+    )
+        
+    
+}
+export default Appp;
